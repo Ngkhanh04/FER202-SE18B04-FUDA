@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Review</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #f4f4f9;
+    }
+
+    /* Header Styling */
+    header {
+      width: 100%;
+      background-color: #333;
+      color: #fff;
+      padding: 15px 0;
+      text-align: center;
+      font-size: 24px;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: #f8f9fa;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+      margin-bottom: 20px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-size: 18px;
+    }
+
+    nav a:hover {
+      color: #007bff;
+    }
+
+    /* Quiz Review Container */
+    .quiz-review-container {
+      width: 60%;
+      max-width: 800px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      margin-bottom: 20px;
+    }
+
+    .quiz-review-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .question-container {
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+    }
+
+    /* Correct and Incorrect Answers */
+    .question-container.correct {
+      background-color: #d4edda;
+      border-color: #c3e6cb;
+    }
+
+    .question-container.incorrect {
+      background-color: #f8d7da;
+      border-color: #f5c6cb;
+    }
+
+    .question {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .options {
+      margin-bottom: 10px;
+    }
+
+    .option {
+      display: block;
+      font-size: 16px;
+      margin-bottom: 5px;
+      color: #333;
+    }
+
+    .right-answer {
+      background-color: #e2e3e5;
+      color: #333;
+      padding: 8px;
+      border-radius: 5px;
+      font-style: italic;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>Quiz Review</header>
+
+  <!-- Navigation -->
+  <nav>
+    <button onclick="window.location.href='index.html'">Home</button>
+    <a href="#">About</a>
+    <a href="#">News</a>
+    <a href="#">Quiz</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <!-- Quiz Review Container -->
+  <div class="quiz-review-container">
+    <h2>Quiz Review</h2>
+
+    <!-- Question 1 - Incorrect Answer -->
+    <div class="question-container incorrect">
+      <div class="question">Q1. Inside which HTML element do we put the JavaScript?</div>
+      <div class="options">
+        <label class

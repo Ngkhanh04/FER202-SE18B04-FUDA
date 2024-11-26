@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Quiz</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Header Styling */
+    header {
+      width: 100%;
+      background-color: #333;
+      color: #fff;
+      padding: 15px 0;
+      text-align: center;
+      font-size: 24px;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: #f8f9fa;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+      margin-bottom: 20px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-size: 18px;
+    }
+
+    nav a:hover {
+      color: #007bff;
+    }
+
+    /* Quiz Container */
+    .quiz-container {
+      width: 60%;
+      max-width: 800px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .quiz-container h2 {
+      margin-bottom: 20px;
+    }
+
+    .question {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 10px;
+      text-align: left;
+    }
+
+    .options {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .option {
+      width: 45%;
+      padding: 10px;
+      background-color: #e8f0fe;
+      border: 1px solid #007bff;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      text-align: left;
+      display: flex;
+      align-items: center;
+    }
+
+    .option input[type="radio"] {
+      margin-right: 10px;
+    }
+
+    /* Pagination Buttons */
+    .pagination {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .pagination button {
+      padding: 8px 15px;
+      font-size: 16px;
+      color: white;
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .pagination button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Bottom Buttons */
+    .bottom-buttons {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 20px;
+      width: 60%;
+      max-width: 800px;
+    }
+
+    .bottom-buttons button {
+      padding: 10px 20px;
+      font-size: 16px;
+      color: white;
+      background-color: #17a2b8;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .bottom-buttons button:hover {
+      background-color: #138496;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>JavaScript Quiz</header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">News</a>
+    <a href="#">Quiz</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <!-- Quiz Container -->
+  <div class="quiz-container">
+    <h2>JavaScript Quiz</h2>
+    <div class="question">Q4.Which HTML tag is used to define an unordered list?</div>
+    <div class="options">
+      <label class="option">
+        <input type="radio" name="question1" value="javascript"> ol
+      </label>
+      <label class="option">
+        <input type="radio" name="question1" value="scripting"> ul
+      </label>
+      <label class="option">
+        <input type="radio" name="question1" value="script"> li
+      </label>
+      <label class="option">
+        <input type="radio" name="question1" value="js"> list
+      </label>
+    </div>
+
+    <!-- Pagination Buttons -->
+    <div class="pagination">
+      <button onclick="window.location.href='index.html'">First</button>
+      <button onclick="window.location.href='q3.html'">Prev</button>
+      <button onclick="window.location.href='q5.html'">Next</button>
+      <button>Last</button>
+    </div>
+  </div>
+
+  <!-- Bottom Buttons -->
+  <div class="bottom-buttons">
+    <button>Quiz</button>
+    <button onclick="window.location.href='quiz-review.html'">Quiz Review</button> <!-- Nút chuyển đến trang Quiz Review -->
+    <button>Submit</button>
+  </div>
+</body>
+</html>
