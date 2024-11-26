@@ -1,0 +1,95 @@
+{
+    "questions": [
+      {
+        "question": "Which method is used to create an HTML element in JavaScript?",
+        "options": [
+          { "text": "createElement()", "isCorrect": true },
+          { "text": "newElement()", "isCorrect": false },
+          { "text": "makeElement()", "isCorrect": false },
+          { "text": "appendChild()", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Which tag is used to embed an external JavaScript file into HTML?",
+        "options": [
+          { "text": "<script src=\"file.js\">", "isCorrect": true },
+          { "text": "<js src=\"file.js\">", "isCorrect": false },
+          { "text": "<link src=\"file.js\">", "isCorrect": false },
+          { "text": "<import src=\"file.js\">", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Which of the following is the correct way to declare a variable in JavaScript?",
+        "options": [
+          { "text": "var myVar;", "isCorrect": false },
+          { "text": "let myVar;", "isCorrect": false },
+          { "text": "const myVar;", "isCorrect": false },
+          { "text": "All of the above", "isCorrect": true }
+        ]
+      },
+      {
+        "question": "Which HTML tag is used to define an unordered list?",
+        "options": [
+          { "text": "<ol>", "isCorrect": false },
+          { "text": "<ul>", "isCorrect": true },
+          { "text": "<li>", "isCorrect": false },
+          { "text": "<list>", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Which method is used to add an attribute to an HTML element in JavaScript?",
+        "options": [
+          { "text": "setAttribute()", "isCorrect": true },
+          { "text": "addAttribute()", "isCorrect": false },
+          { "text": "createAttribute()", "isCorrect": false },
+          { "text": "insertAttribute()", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Which HTML tag is used to embed a video?",
+        "options": [
+          { "text": "<video>", "isCorrect": true },
+          { "text": "<media>", "isCorrect": false },
+          { "text": "<stream>", "isCorrect": false },
+          { "text": "<movie>", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Which method is used to check if a variable is an array in JavaScript?",
+        "options": [
+          { "text": "isArray()", "isCorrect": true },
+          { "text": "arrayCheck()", "isCorrect": false },
+          { "text": "isArrayOf()", "isCorrect": false },
+          { "text": "checkArray()", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Which tag is used to define the title of an HTML document?",
+        "options": [
+          { "text": "<header>", "isCorrect": false },
+          { "text": "<title>", "isCorrect": true },
+          { "text": "<head>", "isCorrect": false },
+          { "text": "<h1>", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the correct way to add a comment in JavaScript?",
+        "options": [
+          { "text": "// This is a comment", "isCorrect": true },
+          { "text": "<!-- This is a comment -->", "isCorrect": false },
+          { "text": "' This is a comment", "isCorrect": false },
+          { "text": "# This is a comment", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Which operator is used to assign a value to a variable in JavaScript?",
+        "options": [
+          { "text": "=", "isCorrect": true },
+          { "text": "==", "isCorrect": false },
+          { "text": "===", "isCorrect": false },
+          { "text": ":", "isCorrect": false }
+        ]
+      }
+    ]
+  }
+  
