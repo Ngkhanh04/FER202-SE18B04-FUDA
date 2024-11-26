@@ -1,0 +1,60 @@
+{
+  "accounts": [
+    {
+      "accountId": "ACC67890",
+      "accountHolder": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "dateOfBirth": "1985-06-15",
+        "address": {
+          "street": "456 Elm St",
+          "city": "Townsville",
+          "state": "Stateville",
+          "zipcode": "67890"
+        },
+        "contact": {
+          "email": "john.doe@example.com",
+          "phone": "+1234567890"
+        }
+      },
+      "id": "c4ee"
+    },
+    {
+      "accountId": "ACC67891",
+      "accountHolder": {
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "dateOfBirth": "1990-08-25",
+        "address": {
+          "street": "789 Maple St",
+          "city": "Villageville",
+          "state": "Stateville",
+          "zipcode": "34567"
+        },
+        "contact": {
+          "email": "jane.smith@example.com",
+          "phone": "+09876543214"
+        }
+      },
+      "id": "3346"
+    },
+    {
+      "id": "7dc1",
+      "accountHolder": {
+        "firstName": "a",
+        "lastName": "a",
+        "dateOfBirth": "2024-10-20",
+        "address": {
+          "street": "a",
+          "city": "a",
+          "state": "a",
+          "zipcode": "a"
+        },
+        "contact": {
+          "email": "a@gmail.com",
+          "phone": "a"
+        }
+      }
+    }
+  ]
+}
