@@ -1,0 +1,26 @@
+header {
+    background: url('campaign-background.png') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+footer {
+    background: #333;
+    color: #ffffff;
+}
