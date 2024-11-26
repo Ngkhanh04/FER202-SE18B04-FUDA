@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Chat Room</title>
+  <style>
+    /* Basic reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* General styling */
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #C1272D;
+      padding: 8px 0; /* Giảm padding */
+      color: #fff;
+    }
+
+    .header .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .header .logo img {
+      width: 80px; /* Giảm kích thước logo */
+      margin-right: 15px; /* Giảm khoảng cách logo và menu */
+    }
+
+    .banner-content img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .header nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 15px; /* Giảm khoảng cách giữa các menu */
+      font-size: 14px; /* Giảm kích thước font chữ menu */
+    }
+
+    .header nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Chat Room */
+    .chat-room {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .chat-messages {
+      width: 80%;
+      max-height: 400px;
+      overflow-y: auto;
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+
+    .message {
+      margin-bottom: 10px;
+    }
+
+    .input-container {
+      width: 80%;
+      display: flex;
+    }
+
+    .input-container input {
+      flex-grow: 1;
+      padding: 10px;
+      border: 1px solid #ddd;
+      font-size: 16px;
+    }
+
+    .input-container button {
+      background-color: #C1272D;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #C1272D;
+      color: #fff;
+      padding: 20px 0;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div>
+      <img src="logo_fpt.jpg" alt="FPT University Logo">
+    </div>
+    <nav>
+      <button class="button" onclick="navigateToHome()">Home</button>
+      <a href="#">Chat Room</a>
+    </nav>
+  </header>
+
+  <!-- Banner Section -->
+  <section class="banner">
+    <div class="banner-content">
+      <img src="Hocbong-100-e-bannerweb.png" alt="Students Image">
+    </div>
+  </section>
+
+  <!-- Chat Room Section -->
+  <div class="chat-room">
+    <div class="chat-messages">
+      <div class="message">User 1: Hello everyone!</div>
+      <div class="message">User 2: Hi there!</div>
+      <div class="message">User 1: How's it going?</div>
+      <div class="message">User 2: I'm doing well, thanks for asking!</div>
+    </div>
+    <div class="input-container">
+      <input type="text" placeholder="Type your message here">
+      <button>Send</button>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p>@2024 - Created by FPTU</p>
+  </footer>
+
+  <script>
+    function navigateToHome() {
+      // Chuyển hướng về trang chủ "index.html"
+      window.location.href = "index.html";
+    }
+  </script>
+</body>
+</html>

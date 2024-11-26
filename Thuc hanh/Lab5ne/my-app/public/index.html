@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Chat Room</title>
+  <style>
+    /* Basic reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* General styling */
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #C1272D;
+      padding: 8px 0; /* Giảm padding */
+      color: #fff;
+    }
+
+    .header .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .header .logo img {
+      width: 80px; /* Giảm kích thước logo */
+      margin-right: 15px; /* Giảm khoảng cách logo và menu */
+    }
+
+    .banner-content img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .header nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 15px; /* Giảm khoảng cách giữa các menu */
+      font-size: 14px; /* Giảm kích thước font chữ menu */
+    }
+
+    .header nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Welcome Message */
+    .welcome {
+      font-size: 2.5em;
+      color: #FFA500;
+      margin: 50px 0;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #C1272D;
+      color: #fff;
+      padding: 20px 0;
+    }
+
+    /* Button */
+    .button {
+      background-color: #C1272D;      /* Màu nền của button */
+      border: none;
+      color: white; /* Màu chữ */
+      padding: 10px 20px; /* Khoảng cách nội dung và viền */
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div>
+      <img src="logo_fpt.jpg" alt="FPT University Logo">
+    </div>
+    <nav>
+      <a href="#">Home</a>
+      <button class="button" onclick="navigateToChatRoom()">Chat Room</button>
+    </nav>
+  </header>
+
+  <!-- Banner Section -->
+  <section class="banner">
+    <div class="banner-content">
+      <img src="Hocbong-100-e-bannerweb.png" alt="Students Image">
+    </div>
+  </section>
+
+  <!-- Welcome Message -->
+  <div class="welcome">
+    Welcome to Simple Chat Room
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p>@2024 - Created by FPTU</p>
+  </footer>
+
+  <script>
+    function navigateToChatRoom() {
+      // Chuyển hướng sang trang mới chứa chat room
+      window.location.href = "chat-room.html";
+    }
+  </script>
+</body>
+</html>
